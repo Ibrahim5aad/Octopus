@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/tinycpptest-populate"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/063cadaaab2b98b0b6859491252f7c1f/tinycpptest-populate.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/0ba528874a5bca92dd25b83bc3d5fe1d/tinycpptest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-build.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-download.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-install.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-test.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinycpptest-populate"
+		],
+		"name" : "tinycpptest-populate"
+	}
+}

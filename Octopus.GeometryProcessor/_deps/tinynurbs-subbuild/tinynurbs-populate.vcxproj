@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{415E6A7A-ECF5-3985-89EC-C4CAC2D5E85F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>tinynurbs-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/tmp/tinynurbs-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/tmp/tinynurbs-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\tinynurbs-populate-gitinfo.txt;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/tmp/tinynurbs-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\tmp\tinynurbs-populate-cfgcmd.txt;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\5e81ef3c9e2023da2c065a41a22b1ece\tinynurbs-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\9474dab995cfa6c8552155114790ac13\tinynurbs-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'tinynurbs-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/Debug/tinynurbs-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/tinynurbs-populate-prefix/src/tinynurbs-populate-stamp/Debug/tinynurbs-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-install;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-mkdir;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-download;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-update;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-patch;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-configure;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-build;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\src\tinynurbs-populate-stamp\Debug\tinynurbs-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\Debug\tinynurbs-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\892cc5946c5b2ff64040111109ca7252\tinynurbs-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\Debug\tinynurbs-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\tinynurbs-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild" "-BD:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild" --check-stamp-file "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\tinynurbs-populate-prefix\tmp\tinynurbs-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\tinynurbs-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{CE35C641-1271-3419-ACA9-87EA140246A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

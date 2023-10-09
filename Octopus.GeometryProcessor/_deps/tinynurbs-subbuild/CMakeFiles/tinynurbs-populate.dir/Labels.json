@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/tinynurbs-populate"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/892cc5946c5b2ff64040111109ca7252/tinynurbs-populate.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/9474dab995cfa6c8552155114790ac13/tinynurbs-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-build.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-download.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-install.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-test.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/5e81ef3c9e2023da2c065a41a22b1ece/tinynurbs-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinynurbs-populate"
+		],
+		"name" : "tinynurbs-populate"
+	}
+}

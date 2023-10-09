@@ -1,0 +1,3 @@
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/tinycpptest-populate.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/ZERO_CHECK.dir

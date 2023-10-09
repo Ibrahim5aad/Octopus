@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="schema\IfcSchemaManager.cpp" />
+    <ClCompile Include="schema\schema-functions.cpp" />
+    <ClCompile Include="parsing\IfcFileStream.cpp" />
+    <ClCompile Include="parsing\IfcLoader.cpp" />
+    <ClCompile Include="parsing\IfcTokenChunk.cpp" />
+    <ClCompile Include="parsing\IfcTokenStream.cpp" />
+    <ClCompile Include="parsing\number_parsing.cpp" />
+    <ClCompile Include="parsing\string_parsing.cpp" />
+    <ClCompile Include="utility\LoaderError.cpp" />
+    <ClCompile Include="utility\Logging.cpp" />
+    <ClCompile Include="geometry\IfcGeometryLoader.cpp" />
+    <ClCompile Include="geometry\IfcGeometryProcessor.cpp" />
+    <ClCompile Include="geometry\representation\IfcCurve.cpp" />
+    <ClCompile Include="geometry\representation\IfcGeometry.cpp" />
+    <ClCompile Include="test\io_helpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0CD470FC-E9BA-31FC-BF78-61E940CBAD01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="version.h" />
+    <ClInclude Include="geometry\IfcGeometryLoader.h" />
+    <ClInclude Include="geometry\IfcGeometryProcessor.h" />
+    <ClInclude Include="geometry\operations\curve-utils.h" />
+    <ClInclude Include="geometry\operations\geometryutils.h" />
+    <ClInclude Include="geometry\operations\mesh_utils.h" />
+    <ClInclude Include="geometry\representation\geometry.h" />
+    <ClInclude Include="geometry\representation\IfcCurve.h" />
+    <ClInclude Include="geometry\representation\IfcGeometry.h" />
+    <ClInclude Include="parsing\IfcLoader.h" />
+    <ClInclude Include="parsing\IfcTokenStream.h" />
+    <ClInclude Include="schema\ifc-schema.h" />
+    <ClInclude Include="schema\IfcSchemaManager.h" />
+    <ClInclude Include="utility\LoaderError.h" />
+    <ClInclude Include="utility\LoaderSettings.h" />
+    <ClInclude Include="utility\Logging.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\aabb.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\bvh.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\clip-mesh.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\eps.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\fuzzy-bools.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\geometry.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\intersect-ray-tri.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\is-inside-mesh.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\loop-finder.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\math.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\obj-exporter.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\shared-position.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\svg.h" />
+    <ClInclude Include="_deps\fuzzy-src\fuzzy\util.h" />
+  </ItemGroup>
+</Project>

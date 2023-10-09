@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\tinynurbs-subbuild\CMakeFiles\892cc5946c5b2ff64040111109ca7252\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7B4599A-691B-3AA8-A834-5F5F8DF6AB6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

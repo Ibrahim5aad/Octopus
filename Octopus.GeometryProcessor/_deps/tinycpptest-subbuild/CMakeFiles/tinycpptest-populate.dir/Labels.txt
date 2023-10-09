@@ -1,0 +1,14 @@
+# Target labels
+ tinycpptest-populate
+# Source files and their labels
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/tinycpptest-populate
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/063cadaaab2b98b0b6859491252f7c1f/tinycpptest-populate.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/0ba528874a5bca92dd25b83bc3d5fe1d/tinycpptest-populate-complete.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-build.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-configure.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-download.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-install.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-mkdir.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-patch.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-test.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinycpptest-subbuild/CMakeFiles/77b1d1a15a9bd019f9b686bd66d1db1f/tinycpptest-populate-update.rule

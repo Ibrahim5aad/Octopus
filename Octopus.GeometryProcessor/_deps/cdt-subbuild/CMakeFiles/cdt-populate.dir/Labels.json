@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/cdt-populate"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/24f3fa957edb4da5b84553bfc2b90957/cdt-populate.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/83c6079bdc221985e9f583f82e453f20/cdt-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-build.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-download.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-install.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-test.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/b4da4698b1039e9d1d92095106b0f6ce/cdt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cdt-populate"
+		],
+		"name" : "cdt-populate"
+	}
+}

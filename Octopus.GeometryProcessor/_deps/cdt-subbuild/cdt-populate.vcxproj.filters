@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\83c6079bdc221985e9f583f82e453f20\cdt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\24f3fa957edb4da5b84553bfc2b90957\cdt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\cdt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AAFB69AC-15A3-30C7-8520-F3555B01E072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

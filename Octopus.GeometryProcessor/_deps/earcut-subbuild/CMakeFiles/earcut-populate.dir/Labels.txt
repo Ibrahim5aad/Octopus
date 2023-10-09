@@ -1,0 +1,14 @@
+# Target labels
+ earcut-populate
+# Source files and their labels
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/earcut-populate
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/132ac2a3dc3982f02c9c5f9bf928cc83/earcut-populate.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/f19b3934e054cb0e0128a840d7a93f9e/earcut-populate-complete.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-build.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-configure.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-download.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-install.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-mkdir.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-patch.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-test.rule
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-update.rule

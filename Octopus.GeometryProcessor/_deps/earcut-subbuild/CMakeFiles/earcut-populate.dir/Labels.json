@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/earcut-populate"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/132ac2a3dc3982f02c9c5f9bf928cc83/earcut-populate.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/f19b3934e054cb0e0128a840d7a93f9e/earcut-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-build.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-download.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-install.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-test.rule"
+		},
+		{
+			"file" : "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/d8fe327c5005019b804e31b99cc2a0ea/earcut-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"earcut-populate"
+		],
+		"name" : "earcut-populate"
+	}
+}

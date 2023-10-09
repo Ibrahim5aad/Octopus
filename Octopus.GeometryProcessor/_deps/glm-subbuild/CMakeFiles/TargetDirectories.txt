@@ -1,0 +1,3 @@
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/glm-subbuild/CMakeFiles/glm-populate.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/glm-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/glm-subbuild/CMakeFiles/ZERO_CHECK.dir

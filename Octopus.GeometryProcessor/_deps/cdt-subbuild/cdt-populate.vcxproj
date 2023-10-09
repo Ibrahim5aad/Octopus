@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3309E880-DB34-3F3A-B81B-5C2E13A09B6A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cdt-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/tmp/cdt-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/tmp/cdt-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\cdt-populate-gitinfo.txt;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/tmp/cdt-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\tmp\cdt-populate-cfgcmd.txt;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\b4da4698b1039e9d1d92095106b0f6ce\cdt-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\83c6079bdc221985e9f583f82e453f20\cdt-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'cdt-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/Debug/cdt-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/cdt-populate-prefix/src/cdt-populate-stamp/Debug/cdt-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-install;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-mkdir;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-download;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-update;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-patch;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-configure;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-build;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\src\cdt-populate-stamp\Debug\cdt-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\Debug\cdt-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\24f3fa957edb4da5b84553bfc2b90957\cdt-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\Debug\cdt-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\cdt-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild -BD:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild --check-stamp-file D:/Work/wasm/web-ifc/src/wasm/_deps/cdt-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\cdt-populate-prefix\tmp\cdt-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\CMakeFiles\cdt-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Work\wasm\web-ifc\src\wasm\_deps\cdt-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{CA19C593-9B75-38D4-8C48-A9D35523FB39}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

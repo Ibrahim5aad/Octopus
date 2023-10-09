@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04CE3630-E135-3B87-95A6-FD7249DA788E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>earcut-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/tmp/earcut-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/tmp/earcut-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\earcut-populate-gitinfo.txt;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/tmp/earcut-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\tmp\earcut-populate-cfgcmd.txt;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\f19b3934e054cb0e0128a840d7a93f9e\earcut-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'earcut-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/Debug/earcut-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/earcut-populate-prefix/src/earcut-populate-stamp/Debug/earcut-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-install;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-mkdir;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-download;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-update;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-patch;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-configure;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-build;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\src\earcut-populate-stamp\Debug\earcut-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\Debug\earcut-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\132ac2a3dc3982f02c9c5f9bf928cc83\earcut-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\Debug\earcut-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\earcut-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild" "-BD:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild" --check-stamp-file "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/earcut-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\earcut-populate-prefix\tmp\earcut-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\earcut-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{4E32803A-B4C8-3D4A-930A-A4040AD58FB0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

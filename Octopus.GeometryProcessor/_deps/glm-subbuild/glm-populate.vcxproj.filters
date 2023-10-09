@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\672391bacf9215b2362a885b91520129\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\eca2ac1a5aa95785db205e6633116a0c\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\44673c96cf7a4f8d8efe73971505c0d1\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1FCCE949-1018-38B6-AF93-5EE1811878BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

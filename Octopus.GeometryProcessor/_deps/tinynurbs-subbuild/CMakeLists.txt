@@ -1,0 +1,36 @@
+# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
+# file Copyright.txt or https://cmake.org/licensing for details.
+
+cmake_minimum_required(VERSION 3.26.3)
+
+# We name the project and the target for the ExternalProject_Add() call
+# to something that will highlight to the user what we are working on if
+# something goes wrong and an error message is produced.
+
+project(tinynurbs-populate NONE)
+
+
+# Pass through things we've already detected in the main project to avoid
+# paying the cost of redetecting them again in ExternalProject_Add()
+set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
+set(GIT_VERSION_STRING [==[2.41.0.windows.1]==])
+set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
+  [==[C:/Program Files/Git/cmd/git.exe;2.41.0.windows.1]==]
+)
+
+
+include(ExternalProject)
+ExternalProject_Add(tinynurbs-populate
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/pradeep-pyro/tinynurbs" "GIT_TAG" "2fc6562d71665312c6298f7c340bace1bcf1b7a1" "SOURCE_SUBDIR" "../"
+                    SOURCE_DIR          "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-src"
+                    BINARY_DIR          "D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-build"
+                    CONFIGURE_COMMAND   ""
+                    BUILD_COMMAND       ""
+                    INSTALL_COMMAND     ""
+                    TEST_COMMAND        ""
+                    USES_TERMINAL_DOWNLOAD  YES
+                    USES_TERMINAL_UPDATE    YES
+                    USES_TERMINAL_PATCH     YES
+)
+
+

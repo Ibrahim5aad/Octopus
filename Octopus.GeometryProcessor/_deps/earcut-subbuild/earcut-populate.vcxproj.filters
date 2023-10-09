@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\d8fe327c5005019b804e31b99cc2a0ea\earcut-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\f19b3934e054cb0e0128a840d7a93f9e\earcut-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\132ac2a3dc3982f02c9c5f9bf928cc83\earcut-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Work\wasm\New folder\web-ifc\src\wasm\_deps\earcut-subbuild\CMakeFiles\earcut-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA131336-B908-3C7F-91BA-F2DD2B00BBCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

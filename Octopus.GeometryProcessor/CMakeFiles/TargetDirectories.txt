@@ -1,0 +1,5 @@
+D:/Work/wasm/New folder/web-ifc/src/wasm/CMakeFiles/web-ifc-test.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/CMakeFiles/web-ifc.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/CMakeFiles/RUN_TESTS.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/CMakeFiles/ALL_BUILD.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/CMakeFiles/ZERO_CHECK.dir

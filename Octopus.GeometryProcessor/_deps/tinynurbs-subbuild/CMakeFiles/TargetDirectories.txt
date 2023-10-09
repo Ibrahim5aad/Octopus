@@ -1,0 +1,3 @@
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/tinynurbs-populate.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Work/wasm/New folder/web-ifc/src/wasm/_deps/tinynurbs-subbuild/CMakeFiles/ZERO_CHECK.dir

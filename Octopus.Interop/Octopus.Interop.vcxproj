@@ -26,35 +26,24 @@
     <RootNamespace>OctupusInterop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <TargetFramework>net6.0</TargetFramework>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>NetCore</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WindowsTargetPlatformMinVersion>7.0</WindowsTargetPlatformMinVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <CLRSupport>NetCore</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <CLRSupport>NetCore</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <CLRSupport>NetCore</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <CLRSupport>NetCore</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -90,7 +79,7 @@
       <AdditionalIncludeDirectories>..\Octopus.GeometryProcessor\_deps\tinynurbs-src\include;..\Octopus.GeometryProcessor\_deps\cdt-src\CDT\include;..\Octopus.GeometryProcessor\_deps\glm-src;..\Octopus.GeometryProcessor\_deps\glm-src\glm;..\Octopus.GeometryProcessor\_deps\earcut-src\include;..\Octopus.GeometryProcessor\_deps\fuzzy-src;..\Octopus.GeometryProcessor\_deps\tinycpptest-src\Sources;..\Octopus.GeometryProcessor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>../Octopus.GeometryProcessor\bin\Debug\x64\Octopus.GeometryProcessor.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\Octopus.GeometryProcessor\bin\Debug\x64\Octopus.GeometryProcessor.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -98,10 +87,10 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>..\Octupus.GeometryProcessor\_deps\tinynurbs-src\include;..\Octupus.GeometryProcessor\_deps\earcut-src\include;..\Octupus.GeometryProcessor\_deps\cdt-src\CDT\include;..\Octupus.GeometryProcessor\_deps\glm-src\glm;..\Octupus.GeometryProcessor\_deps\glm-src;..\Octupus.GeometryProcessor;..\Octupus.GeometryProcessor\_deps\fuzzy-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Octopus.GeometryProcessor\_deps\tinynurbs-src\include;..\Octopus.GeometryProcessor\_deps\earcut-src\include;..\Octopus.GeometryProcessor\_deps\cdt-src\CDT\include;..\Octopus.GeometryProcessor\_deps\glm-src\glm;..\Octopus.GeometryProcessor\_deps\glm-src;..\Octopus.GeometryProcessor;..\Octopus.GeometryProcessor\_deps\fuzzy-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>../Octopus.GeometryProcessor\bin\Debug\x86\Octopus.GeometryProcessor.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\Octopus.GeometryProcessor\bin\Debug\x86\Octopus.GeometryProcessor.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
